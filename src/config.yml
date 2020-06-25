@@ -1,0 +1,123 @@
+#
+#  RequiemMC
+#
+main: me.dayton.Requiem.Main
+
+serverSettings:
+  serverName: '&7Requiem&7MC'
+  serverMOTD: 'A RequiemMC Server'
+  worldName: 'world'
+  maxPlayers: 55
+  
+chatSettings:
+  enabled: true
+  
+  # JOIN Settings
+  joinMessage: '&7<player> is now &aOnline&7!'
+  firstJoinMessage: '&7Welcome &6<player> &7to <servername>'
+  
+  # QUIT Settings
+  quitMessage: '&7<player> is now &cOffline&7!'
+  
+  # CHAT FORMAT Settings
+  chatFormat: '&7<player> &7>> &f<message>'
+  
+  # HEADER Settings
+  headerEnabled: true
+  headerText: '&7<servername> &7>> &7NEW 6/24'
+  
+  # FOOTER Settings
+  footerEnabled: false
+  footerText: '&7Use /&6help to get started!'
+  
+  # CHAT BANNER Settings
+  bannerLeft: '&8+============ &7Requiem&6 '
+  bannerRight: ' &8============+'
+
+messageSettings: 
+  prefix: '&7[&cREQ&7] &f'
+  playerNull: '&cPlayer not found!'
+  noPermission: '&cYou dont have permission to do that!'
+  invalidUsage: '&cInvalid usage!'
+  errorMessage: '&cThere was an error performing this command!'
+
+playerCommandSettings:
+  # BED Command
+  gotoBed: '&7Taking you to your &6bed&7!'
+  setBed: '&7Your bed &6location &7has been updated&7!'
+  bedNull: '&7Your bed is &6obstructed &7or &6missing&7!'
+
+  # DISCORD Command
+  discordInvite: ''
+  discordMessage: '&7Discord Server&7: <discord>'
+  
+  # HOME Command
+  gotoHome: '&7Taking you to your &6Home&7!'
+  setHome: '&7Home location &6set&7!'
+  homeNull: '&7You havent set a &6home &7location&7!'
+  
+  # SPAWN Command
+  gotoSpawn: '&7Taking you to &6spawn&7!'
+  setSpawn: '&7Spawn location &6set&7!'
+  spawnNull: '&7Spawn not found&7! &7Contact an &cAdministrator&7!'
+  
+  # SUICIDE Command
+  suicideMessage: '&61-800-273-8255'
+  
+  # TPA Command
+  tpaMessage: '&7You have requested to &6teleport &7to <player>&7!'
+  tpaRequestMessage: '&7<player> has requested to &6teleport&7 to you, use /tpaccept to accept&7!'
+  tpaAcceptMessage: '&7You have accepted <player>s &6teleport &7request&7!'
+  tpaAcceptedMessage: '&7<player> accepted your &6teleport &7request78!'
+  tpaDenyMessage: '&7<player> has declined your &6teleport &7request&7!'
+  tpaCancelMessage: '&7You have cancelled your &6teleport request&7!'
+  tpaRequestNull: '&cYou do not have a pending &6teleport request&7!'
+  tpaRequestActive: '&cYou have already requested to &6teleport &7to <player>&7!'
+  
+staffCommandSettings:
+  # TELEPORT Command
+  teleportMessage: ''
+  
+  # FLY Command
+  flyEnabledMessage: '&7You can now &6fly&7!'
+  flyDisabledMessage: '&7You can no longer &6fly&7!'
+  
+  # GAMEMODE Command
+  survivalMessage: '&7Gamemode changed to &6Survival&7!'
+  creativeMessage: '&7Gamemode changed to &6Creative&7!'
+  
+  # HEAL Command
+  healMessage: '&7Healed&7!'
+  
+  # INVSEE Command
+  invseeMessage: '&7Viewing <target-player> &6inventory&7!'
+  
+  # TIME Command
+  dayMessage: '&7Time set to &6day&7!'
+  noonMessage: '&7Time set to &6noon&7!'
+  nightMessage: '&7Time set to &6night&7!'
+  midnightMessage: '&7Time set to &6midnight&7!'
+  
+  # VANISH Command
+  vanishMessage: '&7You are now &6vanished&7!'
+  
+  # WEATHER Command
+  weatherEnabledMessage: '&7Weather &6on&7!'
+  weatherDisabledMessage: '&7Weather &6off&7!'
+  
+Moderators: 
+  prefix: '&7[&cModerator&7] &7'
+  mods:
+    - ModName1
+    - ModName2
+
+Administrators:
+  prefix: '&7[&cAdministrator&7] &7'
+  admins:
+    - AdminName1
+    - AdminName2
+  
+Founders:
+  prefix: '&7[&cFounder&7] &7'
+  founders:
+    - UnsocialLive

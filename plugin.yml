@@ -1,0 +1,21 @@
+name: RequiemMC-custom
+description: Plugin designed for use on Requiem Survival
+author: UnsocialLive
+version: 0.0.1
+api-version: 1.15
+main: me.dayton.Requiem.Main
+commands:
+  bed:
+    description: Take you to your bed.
+  help:
+    description: Displays the help menu.
+  home:
+    description: Take you to your Home location.
+  sethome:
+    description: Set your Home location.
+  spawn:
+    description: Takes you to spawn location.
+  setspawn:
+    description: Sets server spawn location.
+  suicide:
+    description: Mistakes were made.
